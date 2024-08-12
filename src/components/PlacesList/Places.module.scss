@@ -1,0 +1,22 @@
+.wrapper {
+}
+.list {
+	width: 70%;
+	height: 300px;
+	margin: 0 auto;
+	overflow-y: auto;
+	background-color: #242424;
+	z-index: 1;
+	
+	li {
+		cursor: pointer;
+		padding: 20px;
+		background-color: inherit;
+		transition: background-color ease-in-out 0.3s;
+		font-size: 18px;
+		text-align: left;
+		&:hover {
+			background-color: #353434;
+		}
+	}
+}
