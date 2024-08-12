@@ -1,7 +1,8 @@
 .wrapper {
 }
 .list {
-	width: 70%;
+	max-width: 350px;
+	// text-align: center;
 	height: 300px;
 	margin: 0 auto;
 	overflow-y: auto;
@@ -15,6 +16,7 @@
 		transition: background-color ease-in-out 0.3s;
 		font-size: 18px;
 		text-align: left;
+		text-align: center;
 		&:hover {
 			background-color: #353434;
 		}
