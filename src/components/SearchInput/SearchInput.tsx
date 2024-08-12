@@ -68,7 +68,7 @@ const SearchInput: FC = () => {
 				className={`${styles.input} ${isLoading ? styles.loading : ''}`}
 				style={{
 					backgroundImage: isLoading
-						? 'url(/public/infinite-spinner.svg)'
+						? 'url(/infinite-spinner.svg)'
 						: 'none',
 					backgroundRepeat: 'no-repeat',
 					backgroundPosition: 'calc(100% - 10px) center',

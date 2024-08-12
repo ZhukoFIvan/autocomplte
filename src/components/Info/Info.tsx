@@ -6,7 +6,7 @@ interface IFeature {
 }
 
 const Info: FC<IFeature> = memo(({ feature }) => {
-	console.log('info render')
+
 	return (
 		<ul className={styles.info}>
 			{feature.length !== 0 ? (

@@ -1,6 +1,7 @@
 .wrapper {
 }
 .list {
+	width: 100%;
 	max-width: 350px;
 	// text-align: center;
 	height: 300px;
@@ -10,6 +11,7 @@
 	z-index: 1;
 	
 	li {
+		width: 100%;
 		cursor: pointer;
 		padding: 20px;
 		background-color: inherit;
